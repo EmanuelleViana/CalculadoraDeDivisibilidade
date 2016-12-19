@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.discreta.emanuelle.exemplocommenus.MainActivity">
+
+
+    <item android:id="@+id/item_novo"
+        android:title="Novo" ></item>
+    <item android:id="@+id/item_abrir"
+        android:title="Abrir" ></item>
+    <item android:id="@+id/item_salvar"
+        android:title="Salvar" ><menu>
+        <item android:id="@+id/item_salvar_copia"
+            android:title="Salvar Cópia" ></item>
+        <item android:id="@+id/item_salvar_como"
+            android:title="Salvar Como" ></item>
+    </menu></item>
+</menu>

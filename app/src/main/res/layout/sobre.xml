@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.31"
+        android:src="@mipmap/ic_launcher23" />
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Com a Calculadora de Divisibilidade você poderá fazer operações no contexto da Teoria dos Números. "
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Obrigada por utilizar!"
+        android:id="@+id/textView3"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_weight="0.31"
+        android:gravity="bottom" />
+</LinearLayout>

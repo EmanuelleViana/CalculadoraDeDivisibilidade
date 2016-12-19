@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+        <TextView android:id="@+id/resultTextView" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="right" android:textSize="30sp"
+            android:minHeight="200dp"></TextView>
+
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:focusable="true"
+                android:focusableInTouchMode="true" android:layout_width="0px"
+                android:layout_height="0px" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:imeOptions="actionNext"
+                android:gravity="center"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:layout_weight="1"
+                android:id="@+id/editText2" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/editText3" />
+
+            <Button
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:onClick="startFirstActivity"
+                android:background="@android:drawable/ic_media_previous"
+                android:allowUndo="false" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minWidth="5dp" />
+
+            <Button android:layout_height="match_parent"
+                android:id="@+id/mdc3" android:text="MDC"
+                android:background="@drawable/selector_button"
+                android:textColor="@drawable/colortext"
+                android:layout_width="113dp" android:textSize="19sp"></Button>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minWidth="5dp" />
+
+            <Button android:layout_height="match_parent" android:id="@+id/mmc3"
+                android:text="MMC"
+                android:layout_width="129dp"
+                android:background="@drawable/selector_button"
+                android:textColor="@drawable/colortext"
+                android:textSize="15sp"></Button>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minWidth="5dp" />
+
+            <Button
+                android:layout_height="84dp"
+                android:id="@+id/comb3"
+                android:text="COMBINACAO LINEAR"
+                android:background="@drawable/selector_button"
+                android:textColor="@drawable/colortext"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:backgroundTintMode="src_atop" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minWidth="5dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DOIS NÚMEROS"
+                android:id="@+id/textView4"
+                android:layout_alignTop="@+id/textView5"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="_____________________________"
+                android:id="@+id/textView5"
+                android:layout_marginTop="38dp"
+                android:layout_below="@+id/textView9"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="O Calculadora de Divisibilidade permite fazer operações com dois ou três números."
+                android:id="@+id/textView6"
+                android:layout_marginTop="30dp"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Selecione para fazer operações com três números."
+                android:id="@+id/textView7"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/textView6"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imageView2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:id="@+id/imageView2"
+                android:src="@android:drawable/ic_media_next"
+                android:layout_alignTop="@+id/textView7"
+                android:layout_alignLeft="@+id/textView6"
+                android:layout_alignStart="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Selecione para fazer operações com dois números."
+                android:id="@+id/textView9"
+                android:layout_below="@+id/textView7"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imageView2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/imageView3"
+                android:src="@android:drawable/ic_media_previous"
+                android:maxWidth="5dp"
+                android:maxHeight="5dp"
+                android:minHeight="5dp"
+                android:minWidth="5dp"
+                android:layout_below="@+id/textView7"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignStart="@+id/imageView2" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView5"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="MDC"
+                        android:id="@+id/textView25"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+
+                    <Space
+                        android:layout_width="20px"
+                        android:layout_height="match_parent"
+                        android:minWidth="444dp"
+                        android:layout_weight="0.27" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="MMC"
+                        android:id="@+id/textView20"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+
+                    <Space
+                        android:layout_width="20px"
+                        android:layout_height="match_parent"
+                        android:minWidth="444dp"
+                        android:layout_weight="0.27" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="DIVISÃO"
+                        android:id="@+id/textView11"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Calcula o MDC\n dos valores.  "
+                        android:id="@+id/textView26"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:minWidth="20dp"
+                        android:layout_weight="0.15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Calcula o MMC\n dos valores.  "
+                        android:id="@+id/textView24"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:minWidth="20dp"
+                        android:layout_weight="0.15" />
+
+                    <TextView
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Retorna o Quociente e Resto na divisão dos valores."
+                        android:id="@+id/textView13"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="COMBINAÇÃO LINEAR"
+                        android:id="@+id/textView15"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:minWidth="12dp"
+                        android:layout_weight="0.41" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="EQUAÇÃO DIOFANTINA"
+                        android:id="@+id/textView16"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Escreve o MDC como uma combinação linear da forma ax+by = d"
+                        android:id="@+id/textView17"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:minWidth="12dp"
+                        android:layout_weight="0.41" />
+
+                    <TextView
+                        android:layout_width="203dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Retorna as soluções (x e y) de uma equação diofantina. Ao selecionar essa opção o campo para o valor de c é habilitado"
+                        android:id="@+id/textView12"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1" >
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:minWidth="12dp"
+                        android:layout_weight="0.41" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="SOLUÇÕES POSITIVAS"
+                        android:id="@+id/textView21"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1" >
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:minWidth="12dp"
+                        android:layout_weight="0.41" />
+
+                    <TextView
+                        android:layout_width="203dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Retorna somente as soluções positivas (x e y) de uma equação diofantina. Ao selecionar essa opção o campo para o valor de c é habilitado"
+                        android:id="@+id/textView23"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true"
+                        android:layout_weight="0.05" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.27"
+                    android:minHeight="11dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TRÊS NÚMEROS"
+                        android:id="@+id/textView18" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="_____________________________"
+                        android:id="@+id/textView14"
+                        android:layout_centerVertical="true" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="MDC"
+                        android:id="@+id/textView29"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+
+                    <Space
+                        android:layout_width="20px"
+                        android:layout_height="match_parent"
+                        android:minWidth="444dp"
+                        android:layout_weight="0.41" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="MMC"
+                        android:id="@+id/textView30"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+
+                    <Space
+                        android:layout_width="20px"
+                        android:layout_height="match_parent"
+                        android:minWidth="23dp"
+                        android:layout_weight="0.31" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="COMBINAÇÃO LINEAR"
+                        android:id="@+id/textView31"
+                        android:textColor="@color/pressionado"
+                        android:layout_below="@+id/textView5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Calcula o MDC\n dos valores.  "
+                        android:id="@+id/textView19"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:minWidth="20dp"
+                        android:layout_weight="0.15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Calcula o MMC\n dos valores.  "
+                        android:id="@+id/textView27"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:minWidth="20dp"
+                        android:layout_weight="0.15" />
+
+                    <TextView
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Escreve o MDC como uma combinação linear da forma\n ax + by +cz = d"
+                        android:id="@+id/textView28"
+                        android:textSize="12dp"
+                        android:layout_alignBottom="@+id/textView22"
+                        android:layout_centerHorizontal="true" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:minWidth="20dp"
+                    android:layout_weight="0.15"
+                    android:minHeight="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="a = Primeiro Valor      b = Segundo Valor      c = Terceiro Valor      d = MDC(a,b) ou d = MDC(a,b,c)"
+                    android:id="@+id/textView32"
+                    android:textSize="8dp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:minWidth="20dp"
+                    android:layout_weight="0.15"
+                    android:minHeight="30dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+</ScrollView>

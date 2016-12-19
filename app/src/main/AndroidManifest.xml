@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.discreta.emanuelle.teoriadosnumeros">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher23"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+       <!-- Splash screen -->
+        <activity
+            android:name="com.discreta.emanuelle.teoriadosnumeros.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity Principal -->
+        <activity
+            android:name="com.discreta.emanuelle.teoriadosnumeros.TeoriaNumerosActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- Activity Secundaria -->
+        <activity
+            android:name="com.discreta.emanuelle.teoriadosnumeros.TeoriaNumerosTresNActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <!-- Activity About -->
+        <activity
+            android:name="com.discreta.emanuelle.teoriadosnumeros.SobreActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- Activity Help -->
+        <activity
+            android:name="com.discreta.emanuelle.teoriadosnumeros.AjudaActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+    </application>
+
+</manifest>
